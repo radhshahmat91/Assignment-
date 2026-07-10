@@ -129,3 +129,71 @@ img {
 .nav a:hover {
   color: #12141f;
 }
+/* =============================
+   Hero
+============================= */
+.hero {
+  position: relative;
+  min-height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #0a0a12;
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(8,8,14,0.5) 0%, rgba(8,8,14,0.72) 55%, rgba(8,8,14,0.92) 100%);
+}
+
+.hero__content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  text-align: center;
+  padding: 40px 24px;
+}
+
+.hero__title {
+  font-size: 64px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 24px;
+  letter-spacing: -1px;
+  line-height: 1.1;
+}
+
+.hero__title em {
+  font-style: italic;
+  font-weight: 800;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  color: #d9dbe4;
+  margin-bottom: 36px;
+  line-height: 1.6;
+}
+
+/* =============================
+   Shared section title
+============================= */
+.section-title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 800;
+  color: #12141f;
+  margin-bottom: 48px;
+  letter-spacing: -0.5px;
+}
+
