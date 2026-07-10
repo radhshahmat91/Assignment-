@@ -196,4 +196,60 @@ img {
   margin-bottom: 48px;
   letter-spacing: -0.5px;
 }
+/* =============================
+   Speakers
+============================= */
+.speakers {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.speakers__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.speaker-card {
+  background: #ffffff;
+  border: 1px solid #eef0f4;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(20,22,31,0.04);
+}
+
+.speaker-card__img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.speaker-card__body {
+  padding: 20px 24px 28px;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #3d5ce0;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.speaker-card__name {
+  font-size: 21px;
+  font-weight: 700;
+  color: #12141f;
+  margin-bottom: 6px;
+}
+
+.speaker-card__role {
+  font-size: 14px;
+  color: #6b7280;
+}
+
 
